@@ -23,6 +23,9 @@ export default function ContactSection() {
           <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
             Get in touch with us for admissions, inquiries, or to schedule a visit
           </p>
+          <p className="text-blue-400 max-w-2xl mx-auto text-sm sm:text-base mt-2 font-medium">
+            Join our community of successful students today!
+          </p>
         </motion.div>
 
         <div ref={ref} className="grid md:grid-cols-2 gap-8 sm:gap-10">
@@ -49,7 +52,6 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2">Phone</h3>
-                <p className="text-gray-400 text-sm sm:text-base">+91 98765 43210</p>
                 <p className="text-gray-400 text-sm sm:text-base">+91 12345 67890</p>
               </div>
             </div>

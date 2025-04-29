@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Youtube, Heart } from "lucide-react"
+import { Facebook, Instagram, Youtube, Heart } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -21,13 +21,7 @@ export default function Footer() {
                 <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
